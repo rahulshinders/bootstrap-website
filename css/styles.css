@@ -53,3 +53,24 @@
     text-decoration: none;
     color: black
 }
+
+.sidebar {
+    display: none;
+    width: 318px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    left: 1px;
+    color: black;
+}
+
+.close {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}

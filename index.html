@@ -18,7 +18,17 @@
         <nav class="nav">
             <div class="nav-wrap mx-auto d-flex">
                 <div class="opt col mt-3 d-md-none">
-                    <i class="bi bi-list"></i>
+                    <a class="sidebar-btn text-dark"><i class="bi bi-list"></i></a>
+                    <div class="sidebar d-md-none d-lg-none">
+                        <a class="close d-flex justify-content-end"><i class="bi bi-x-lg"></i></a>
+                        <ul class="lst-items d-lg-flex list-unstyled m-2">
+                            <li class="m-3"><a href="#">Home</a></li>
+                            <li class="m-3"><a href="#">About</a></li>
+                            <li class="m-3"><a href="#">Services</a></li>
+                            <li class="m-3"><a href="#">News</a></li>
+                            <li class="m-3"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="logo col pt-3 ps-md-3 pe-4">
                     <img src="images/illustrations/logo.png.webp" alt="">
@@ -332,5 +342,8 @@
             </div>
         </footer>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./javascript/main.js"></script>
 </body>
 </html>
